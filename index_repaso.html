@@ -1,0 +1,105 @@
+<!DOCTYPE html lang="es">
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+<html lang="es">
+  <head>
+    <title>REPASO <HTML></HTML></title>
+  </head>
+  <body>
+    <!-- los tags h son para titulos-->
+    <h1>Titulo de mi web</h1> <!--Solo deberia haber 1 en toda la página-->
+    <h2>Bienvenidos en mi web</h2>
+    <!-- parafos-->
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br/> Duis aute irure dolor in reprehenderit in voluptate velit esse <br/>cillum dolore eu fugiat nulla pariatur. 
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+    </p>
+    <hr/> <!-- Incluye salto de línea -->
+      <h2>Imagenes en HTML</h2> <!-- Imagenes-->
+      <img src=./imagenes/Fruta1.jpeg t="Imagen de frutas" title="Fruta 1" width="405px"/>
+
+    <hr/>
+    <h3>Tercer encabezado de la página</h3>
+      <p>
+      <blockquote> 
+        <span id="resaltado" class="roja amarillo">ipsum dolor</span> sit amet, <strong>adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </strong> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br/> Duis aute irure dolor in reprehenderit in voluptate velit esse <br/>cillum dolore eu fugiat nulla pariatur. 
+        Excepteur sint occaecat cupidatat non proident, <em>sunt in culpa qui officia deserunt mollit anim id est laborum</em>
+      </blockquote>
+    </p>
+    <h3>Listado de frutas</h3>
+      <ol>  <!-- Order list-->
+        <li>Manzana
+          <ul>
+            <li>Reina</li>    
+            <li>Verde</li>
+            <li>Golden</li>
+          </ul>
+        </li>  
+        <li>Naranja</li>
+        <li>Pera</li>
+        <li>Sandia</li>
+      </ol>
+      <ul>  <!-- Unorder list-->
+        <li>Manzana</li>  
+        <li>Naranja</li>
+        <li>Pera</li>
+        <li>Sandia</li>
+      </ul>    
+  <HR/>
+  <!-- FORMULARIO -->
+  <h3>Formulario</h3>
+      <form>
+        <p>
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" placeholder="Escribe tu nombre"/>
+        </p>
+        <p>
+          <label for="descripción">descripción</label> 
+          <textarea name="descripcion" placeholder="Presentación"></textarea>
+        </p>
+        <p>
+          <input type="radio" name="genero" value="hombre">Hombre<br/>
+          <input type="radio" name="genero" value="mujer">Mujer<br/>
+          <input type="radio" name="genero" value="indefinido">Indefinido<br/>
+        </p>
+        <p>
+          <label for="GeneroSelect">Su genero</label> 
+          <select name="GeneroSelect">
+              <option value="hombre">Hombre</option>
+              <option value="mujer">Mujer</option>
+              <option value="indefinido">Indefinido</option>
+          </select>
+        </p>
+        <p>
+          <input type="submit" value="Enviar Formulario">
+        </p>          
+      </form>
+  <hr/>
+  <!-- Tablas-->
+  <h3>Tablas</h3>
+  <table border="1">
+    <tr>
+      <th>Nombre</th> <!-- <th> permite escribir en negrita la cabecera-->
+      <th>Apellidos</th>
+      <th>País</th>
+    </tr>
+    <tr>
+      <td>Denis</td>
+      <td>Rocher</td>
+      <td>Chile</td>
+    </tr>
+    <tr>
+      <td>Valeska</td>
+      <td colspan="2"> Valenzuela Lara</td>   <!-- colspan permite fusionar celdas-->
+    </tr>
+  </table>
+
+  <!-- Formularios -->
+
+
+
+
+  </body>
+</html>
