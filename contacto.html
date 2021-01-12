@@ -10,9 +10,9 @@
 
     <!--Menu-->
     <ul>
-      <li>Inicio</li>
-      <li>Contenidos</li>
-      <li>Contacto</li>
+      <li><a href="./index.html" title="Inicio">Inicio</a></li>
+      <li><a href="./contenidos.html" title="Contenidos">Contenidos</a></li>
+      <li><a href="./contacto.html" title="Contacto">Contacto</a></li>
     </ul>
 
     <hr/>
@@ -25,10 +25,21 @@
         <input type="text" name="nombre"/>
       </p>
       <p>
-        <label for="biografia">Biografia</label><br/>
-        <textarea name="biografia"></textarea>
+        <label for="celular">Celular</label><br/>
+        <input type="text" name="celular" placeholder="+56 _ ____ ____"/>
+      </p>
+      <p>
+        <label for="consulta">Biografia</label><br/>
+        <textarea name="consulta" placeholder="Ingrese su consulta por favor"></textarea>
       </p><p>
-        <label for="nombre">Nombre</label><br/>
-        <input type="text" name="nombre"/>
+        <label for="edad">Edad</label><br/>
+        <select name="edad">
+          <option value="menor">Menor de edad</option>
+          <option value="mayor">Mayor de edad</option>
+          <option value="65">Mayor de 65 años</option>
+        </select>
+      </p>
+      <p>
+        <input type="submit" value="Enviar email"/>
       </p>
     </form>
