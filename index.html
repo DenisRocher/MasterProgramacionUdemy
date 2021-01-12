@@ -17,6 +17,10 @@
       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
     </p>
     <hr/> <!-- Incluye salto de línea -->
+      <h2>Imagenes en HTML</h2> <!-- Imagenes-->
+      <img src=./imagenes/Fruta1.jpeg t="Imagen de frutas" title="Fruta 1" width="405px"/>
+
+    <hr/>
     <h3>Tercer encabezado de la página</h3>
       <p>
       <blockquote> 
@@ -43,9 +47,56 @@
         <li>Pera</li>
         <li>Sandia</li>
       </ul>    
-      <HR/>
+  <HR/>
+  <!-- FORMULARIO -->
+  <h3>Formulario</h3>
+      <form>
+        <p>
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" placeholder="Escribe tu nombre"/>
+        </p>
+        <p>
+          <label for="descripción">descripción</label> 
+          <textarea name="descripcion" placeholder="Presentación"></textarea>
+        </p>
+        <p>
+          <input type="radio" name="genero" value="hombre">Hombre<br/>
+          <input type="radio" name="genero" value="mujer">Mujer<br/>
+          <input type="radio" name="genero" value="indefinido">Indefinido<br/>
+        </p>
+        <p>
+          <label for="GeneroSelect">Su genero</label> 
+          <select name="GeneroSelect">
+              <option value="hombre">Hombre</option>
+              <option value="mujer">Mujer</option>
+              <option value="indefinido">Indefinido</option>
+          </select>
+        </p>
+        <p>
+          <input type="submit" value="Enviar Formulario">
+        </p>          
+      </form>
+  <hr/>
+  <!-- Tablas-->
+  <h3>Tablas</h3>
+  <table border="1">
+    <tr>
+      <th>Nombre</th> <!-- <th> permite escribir en negrita la cabecera-->
+      <th>Apellidos</th>
+      <th>País</th>
+    </tr>
+    <tr>
+      <td>Denis</td>
+      <td>Rocher</td>
+      <td>Chile</td>
+    </tr>
+    <tr>
+      <td>Valeska</td>
+      <td colspan="2"> Valenzuela Lara</td>   <!-- colspan permite fusionar celdas-->
+    </tr>
+  </table>
 
-
+  <!-- Formularios -->
 
 
 
