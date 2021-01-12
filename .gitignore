@@ -2,4 +2,4 @@ MasterProgramacion.code-workspace
 log*.txt
 ./logs
 .autogit
-
+*.code-workspace
